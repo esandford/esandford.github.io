@@ -1,0 +1,20 @@
+body {
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	vertical-align: middle;
+  	background-color: white;
+	cursor: default;
+}
+
+figcaption { 
+    display: block;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
