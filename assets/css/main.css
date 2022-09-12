@@ -99,7 +99,7 @@ input, select, textarea {
 
 	body {
 		/*background: #083D77;*/ /* background behind scrolling -ES*/
-		background: #0E5F91;
+		background: #0B4F99; /*#0E5F91;*/
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -117,13 +117,13 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		/*color: #ffffff ;*/
-		color: #FFD106;/* yellow */
+		color: #FFFFFF; /*#FFD106; yellow */
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 18pt;
 		font-weight: normal;
 		line-height: 1.75;
 		/*text-shadow: 1px 0px 0px #FFBF00;*/ /* absolutely sick text shadow -ES*/
-		text-shadow: 1.25px 1.25px 0px #AB1C1C;
+		/*text-shadow: 1.25px 1.25px 0px #AB1C1C*/;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -1927,7 +1927,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #0E5F91 !important;
+			color: #0B4F99 !important; /*ES #0E5F91*/
 		}
 
 			input[type="submit"].primary:after,
@@ -2368,7 +2368,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #0E5F91;
+			background: #0B4F99; /*#0E5F91;*/
 		}
 
 		select:focus::-ms-value {
@@ -2456,7 +2456,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
-			color: #0E5F91;
+			color: #0B4F99; /*#0E5F91;*/
 			content: '\f00c';
 		}
 
@@ -2537,7 +2537,7 @@ input, select, textarea {
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #0E5F91;
+			color: #0B4F99; /*#0E5F91;*/
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -2548,27 +2548,27 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #0E5F91;
+					color: #0B4F99; /*#0E5F91;*/
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #0E5F91;
+					color: #0B4F99; /*#0E5F91;*/
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #0E5F91;
+					color: #0B4F99; /*#0E5F91;*/
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #0E5F91;
+					color: #0B4F99; /*#0E5F91;*/
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #0E5F91;
+					color: #0B4F99; /*#0E5F91;*/
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #0E5F91;
+					color: #0B4F99; /*#0E5F91;*/
 				}
 
 /* Image */
@@ -3034,7 +3034,7 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: #0E5F91; /* color behind images -ES*/
+				background: #0B4F99; /*#0E5F91; /* color behind images -ES*/
 				content: '';
 				display: block;
 				height: 100%;
@@ -3080,6 +3080,13 @@ input, select, textarea {
 		}
 
 		.spotlights > section:nth-child(3) {
+			background-color: rgba(0, 0, 0, 0.1);
+		}
+
+		.spotlights > section:nth-child(4) {
+			background-color: rgba(0, 0, 0, 0.15);
+		}
+		.spotlights > section:nth-child(5) {
 			background-color: rgba(0, 0, 0, 0.1);
 		}
 
@@ -3248,7 +3255,7 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #0E5F91;
+			background-color: #0B4F99; /*#0E5F91;*/
 		}
 
 		.wrapper.style1 {
@@ -3258,23 +3265,23 @@ input, select, textarea {
 		}
 
 		.wrapper.style1-alt {
-			background-color: #0E5F91;
+			background-color: #0B4F99; /*#0E5F91;*/
 		}
 
 		.wrapper.style2 {
-			background-color: #0E5F91;
+			background-color: #0B4F99; /*#0E5F91;*/
 		}
 
 		.wrapper.style2-alt {
-			background-color: #0E5F91;
+			background-color: #0B4F99; /*#0E5F91;*/
 		}
 
 		.wrapper.style3 {
-			background-color: #0E5F91;
+			background-color: #0B4F99; /*#0E5F91;*/
 		}
 
 		.wrapper.style3-alt {
-			background-color: #0E5F91;
+			background-color: #0B4F99; /*#0E5F91;*/
 		}
 
 		.wrapper.fullscreen {
@@ -3539,7 +3546,7 @@ input, select, textarea {
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
 		/*background: #083D77;*/ /*sidebar background -ES*/
-		background: #041C37;
+		background: #05284C;/*#041C37;*/
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3777,7 +3784,7 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #2F2602; /*inactive sidebar option -ES*/
+				background: #0B4F99;/*#59544B;*/ /*inactive sidebar option -ES*/
 			}
 
 			#sidebar nav a:after {
