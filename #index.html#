@@ -1,0 +1,234 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Emily Sandford</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" type="image/x-icon" href="images/flipDegeneracy_cropped.png">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">About</a></li>
+							<li><a href="#one">Research</a></li>
+							<li><a href="#two">Past projects</a></li>
+							<li><a href="#three">Teaching & Outreach</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>Emily Sandford</h1>
+							<p>Astronomer at Leiden University. Interested in exoplanet and brown dwarf interiors, transiting exoplanets, stellar and solar activity, and nonlinear dynamics and chaos, particularly phase space reconstruction of experimental observations.</p>
+
+							<ul class="actions">
+								<li><a href="emilysandfordCV.pdf" class="button scrolly">CV</a></li>
+							</ul>
+							
+							<ul class="actions">
+								<li><a href="https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0003-0822-1839%20&sort=date%20desc%2C%20bibcode%20desc&p_=0" class="button scrolly">Publications</a></li>
+							</ul>
+							<ul class="actions">
+								<li><a href="https://github.com/esandford" class="button scrolly">GitHub</a></li>
+							</ul>
+							<p> email: sandford [at] strw [dot] leidenuniv [dot] nl </p>
+						</div>
+					</section>
+
+				<hr/>
+				<!-- One -->
+
+				<section id="one" class="wrapper style2 spotlights">
+						<section>
+							
+							<div class="content">
+								<div class="inner">
+									<h2>Attractor reconstruction of active stellar light curves</h2>
+									<p>What can we learn about the dynamics of a star from a 1D light curve?</p>
+									<ul class="actions">
+										<li><a href="attractorReconstruction.html" class="button"> See more </a></li>
+									</ul>
+								</div>
+							</div>
+
+							<a href="#" class="image"><img src="images/lorenz145.jpg" alt="" data-position="center center" /></a>
+
+						</section>
+						
+					</section>
+
+				<hr/>
+				<!-- Two -->
+					<section id="two" class="wrapper style2 spotlights">
+						
+						<section>
+							
+							<div class="content">
+								<div class="inner">
+									<h2>Planetary Linguistics</h2>
+									<p>What can <a href="https://en.wikipedia.org/wiki/Natural_language_processing">natural language processing</a> teach us about planetary systems?</p>
+									<ul class="actions">
+										<!-- <li><a href="planetaryLinguistics.html" class="button">What indeed?</a></li> -->
+										<li><a href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.505.2224S/abstract" class="button">What indeed?</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<a href="#" class="image"><img src="images/linguistics.png" alt="" data-position="center center" /></a>
+
+						</section>
+						<section>
+							
+							<div class="content">
+								<div class="inner">
+									<h2>Kepler Multiplicities</h2>
+									<p>How can we explain the multiplicities of Kepler systems most simply?</p>
+									<ul class="actions">
+										<!-- <li><a href="keplerMultiplicities.html" class="button">See more</a></li> -->
+										<li><a href="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.3162S/abstract" class="button">See more</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<a href="#" class="image"><img src="images/planetaryMultiplicities_website.jpeg" alt="" data-position="center center" /></a>
+
+						</section>
+						<section>
+							
+							<div class="content">
+								<div class="inner">
+									<h2>Shadow Imaging</h2>
+									<p>Can we infer the shape of an object from its transit light curve alone?</p>
+									<ul class="actions">
+										<!-- <li><a href="shadowImaging.html" class="button">We can</a></li> -->
+										<li><a href="https://ui.adsabs.harvard.edu/abs/2019AJ....157...42S/abstract" class="button">Sort of</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<a href="#" class="image"><img src="images/shadowImaging.png" alt="" data-position="top center" /></a>
+						</section>
+						<section>
+							
+							<div class="content">
+								<div class="inner">
+									<h2>Single Transits</h2>
+									<p>How can we constrain the period of a planet if we only see it transit once?</p>
+									<ul class="actions">
+										<!-- <li><a href="singleTransits.html" class="button">With independent stellar density priors</a></li> -->
+										<li><a href="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.3149S/abstract" class="button">With independent stellar density priors</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<a href="#" class="image"><img src="images/singleTransits_cropped.png" alt="" data-position="25% 25%" /></a>
+						</section>
+						<section>
+							
+							<div class="content">
+								<div class="inner">
+									<h2>Stellar Densities</h2>
+									<p>How precisely can we measure the density of a star from the light curves of its transiting planets?</p>
+									<ul class="actions">
+										<!-- <li><a href="stellarDensities.html" class="button">See more</a></li> -->
+										<li><a href="https://ui.adsabs.harvard.edu/abs/2017AJ....154..228S/abstract" class="button">See more</a></li>
+
+									</ul>
+								</div>
+							</div>
+
+							<a href="#" class="image"><img src="images/rhostar.png" alt="" data-position="25% 25%" /></a>
+						</section>
+					</section>
+
+				<hr/>
+				<!-- Three -->
+					<section id="three" class="wrapper style2 spotlights">
+						<section>
+							
+							<div class="content">
+								<div class="inner">
+									<h2>Kepler Atlas</h2>
+									<p>In 2017, I mentored a team of four high school students through the American Museum of Natural History's <a href="https://www.amnh.org/learn-teach/teens/science-research-mentoring-program">Science Research Mentoring Program.</a> Over the course of the school year, we built a 3D interactive atlas of all the Kepler exoplanet discoveries.</p>
+									<ul class="actions">
+										<li><a href="keplerAtlas/home.html" class="button">Explore the atlas</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<a href="#" class="image"><img src="images/keplerAtlas.png" alt="" data-position="25% 25%" /></a>
+						</section>
+						<section>
+							
+							<div class="content">
+								<div class="inner">
+									<h2>Science Writing</h2>
+									<p>I was a staff writer at Astrobites from 2016-2018. Since then, I've written a bit for Sky & Telescope magazine.</p>
+									<ul class="actions">
+										<li><a href="https://astrobites.org/author/esandford/" class="button">Astrobites</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="https://www.skyandtelescope.com/author/emily-sandford/" class="button">Sky & Telescope</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<a href="#" class="image"><img src="images/astrobites.png" alt="" data-position="25% 25%" /></a>
+						</section>
+						<section>
+							
+							<div class="content">
+								<div class="inner">
+									<h2>Cool Worlds</h2>
+									<p>I'm a regular contributor to the Cool Worlds YouTube channel.</p>
+									<ul class="actions">
+										<li><a href="https://youtu.be/QAcHikVKF5A" class="button">Now That's A Cool World</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<a href="#" class="image"><img src="images/coolWorlds.png" alt="" data-position="25% 25%" /></a>
+						</section>
+					</section>
+
+				<hr/>
+				
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; 2019-2024 Emily Sandford</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
